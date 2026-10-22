@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ZAVIRO Hub &ndash; Update-Feed</title>
+    <meta name="description" content="Update-Feed des ZAVIRO Hub: Installer, Pr&uuml;fsummen und Versionsinformationen." />
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #0d0f14;
+        --card: #151922;
+        --line: #262c3a;
+        --text: #e8ecf5;
+        --muted: #93a0b8;
+        --accent: #7c5cff;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        padding: 48px 20px;
+        background: radial-gradient(1100px 520px at 50% -10%, #1b1733 0%, var(--bg) 62%);
+        color: var(--text);
+        font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+        line-height: 1.6;
+      }
+      main { max-width: 720px; margin: 0 auto; }
+      .badge {
+        display: inline-block;
+        padding: 5px 12px;
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        font-size: 12px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--muted);
+        background: rgba(124, 92, 255, 0.1);
+      }
+      h1 { font-size: 34px; margin: 18px 0 6px; letter-spacing: -0.02em; }
+      h2 { font-size: 17px; margin: 30px 0 8px; }
+      p.lead { color: var(--muted); margin: 0 0 26px; }
+      .card {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        padding: 18px 20px;
+        margin-bottom: 14px;
+      }
+      .card .title { font-weight: 600; }
+      .card .meta { color: var(--muted); font-size: 13px; }
+      code, .mono {
+        font-family: "Cascadia Mono", Consolas, monospace;
+        font-size: 13px;
+        color: #cbd4e8;
+        word-break: break-all;
+      }
+      a { color: #b7a6ff; }
+      ul { padding-left: 20px; color: var(--muted); }
+      footer { margin-top: 34px; color: var(--muted); font-size: 13px; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <span class="badge">Update-Feed</span>
+      <h1>ZAVIRO Hub</h1>
+      <p class="lead">
+        Hier liegen die Installationspakete des ZAVIRO Hub. Die Hub-App fragt diese Seite automatisch
+        ab und installiert Updates im Hintergrund.
+      </p>
+
+      <div class="card">
+        <div class="title">Installer v1.1.0</div>
+        <div class="meta">Windows (x64) &middot; NSIS &middot; 73,2 MB</div>
+        <p>
+          <a href="https://github.com/ZYHPER08/zaviro-hub-feed/releases/download/v1.1.0/ZAVIRO%20Hub%20Setup%201.1.0.exe">
+            ZAVIRO Hub Setup 1.1.0.exe herunterladen
+          </a>
+        </p>
+        <div class="mono">SHA-512: wqyDMTP16IBl3sp8JBYReXkhIyIWSTxCuZyEGAXzZPQzVJZBQriRQ5qUq1voXVq1NXZNZtUb1h/gqUFacoiROA==</div>
+        <div class="mono">Groesse: 76756073 Bytes</div>
+      </div>
+
+      <h2>Feed-Datei</h2>
+      <div class="card">
+        <div class="meta">
+          Der generische Update-Feed der App: <a href="latest.yml">latest.yml</a>
+        </div>
+      </div>
+
+      <h2>Hinweise</h2>
+      <ul>
+        <li>Der Feed wird von der Hub-App automatisch gepr&uuml;ft (Start + Updates-Seite).</li>
+        <li>Installierte Dateien werden per SHA-512 gegen die angegebene Pr&uuml;fsumme validiert.</li>
+        <li>Die App installiert nur signierte, von uns bereitgestellte Pakete.</li>
+      </ul>
+
+      <footer>ZAVIRO &middot; Update-Feed &middot; Version 1.1.0</footer>
+    </main>
+  </body>
+</html>
