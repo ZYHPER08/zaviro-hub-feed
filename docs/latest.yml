@@ -1,8 +1,8 @@
-version: 1.1.6
+version: 1.1.7
 files:
-  - url: https://github.com/ZYHPER08/zaviro-hub-feed/releases/download/v1.1.6/ZAVIRO.Hub.Setup.1.1.6.exe
-    sha512: 8cObKABuuJkS7IqnGEpKLXe0l2tLgSw9cTQ/knJiYryrX/DVz18fn4w+JQZYi8OtTkpH56RskFMLpwQMnbdyiw==
-    size: 76530567
-path: https://github.com/ZYHPER08/zaviro-hub-feed/releases/download/v1.1.6/ZAVIRO.Hub.Setup.1.1.6.exe
-sha512: 8cObKABuuJkS7IqnGEpKLXe0l2tLgSw9cTQ/knJiYryrX/DVz18fn4w+JQZYi8OtTkpH56RskFMLpwQMnbdyiw==
-releaseDate: '2026-11-17T19:38:24.605Z'
+  - url: https://github.com/ZYHPER08/zaviro-hub-feed/releases/download/v1.1.7/ZAVIRO.Hub.Setup.1.1.7.exe
+    sha512: fAz6orTOBr4OS+HrGe3spxO7AOq9EEBCI1EPamDstNgiCwEJ1XVMV9oDU+JtcrKRtWIp6fxdvMr7GyyRksTyfg==
+    size: 76542120
+path: https://github.com/ZYHPER08/zaviro-hub-feed/releases/download/v1.1.7/ZAVIRO.Hub.Setup.1.1.7.exe
+sha512: fAz6orTOBr4OS+HrGe3spxO7AOq9EEBCI1EPamDstNgiCwEJ1XVMV9oDU+JtcrKRtWIp6fxdvMr7GyyRksTyfg==
+releaseDate: '2026-11-17T20:17:08.163Z'
